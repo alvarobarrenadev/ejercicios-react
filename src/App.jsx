@@ -40,7 +40,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <div className="container">ConquerBlocks · ReactJS · Entrega de ejercicios 1</div>
+        <div className="container">Entrega de ejercicios React - Álvaro Barrena Revilla</div>
       </footer>
     </>
   )

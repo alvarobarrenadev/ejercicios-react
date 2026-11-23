@@ -2,7 +2,7 @@
 
 Los ejercicios del módulo de JavaScript rehechos en React con el código mínimo. Estilos con Sass (arquitectura 7-1 en `src/sass/`).
 
-**Demo:** https://<usuario>.github.io/ejercicios-react/
+**Demo:** https://alvarobarrenadev.github.io/ejercicios-react/
 
 ## Ejercicios
 

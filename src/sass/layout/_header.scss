@@ -1,0 +1,29 @@
+@use '@abstracts/abstracts' as *;
+
+.header {
+  background-color: $color-surface;
+  border-bottom: 1px solid $color-border;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: $space-md;
+    padding-block: $space-md;
+  }
+
+  &__logo {
+    font-weight: 700;
+    color: $color-text;
+    text-decoration: none;
+  }
+
+  &__back {
+    font-size: 0.9rem;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

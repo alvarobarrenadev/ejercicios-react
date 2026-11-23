@@ -1,0 +1,35 @@
+// Variables for the project
+$bp-tablet: 48rem; // 768px ÷ 16 = 48rem
+$bp-tablet-horizontal: 64rem; // 1024px ÷ 16 = 64rem
+$bp-desktop: 75rem; // 1200px ÷ 16 = 75rem
+$bp-desktop-xl: 90rem; // 1440px ÷ 16 = 90rem
+
+// Variables for fonts
+$primary-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$secondary-font: ui-monospace, "Cascadia Code", Menlo, monospace;
+
+// Colors
+$color-bg: #f4f5f7;
+$color-surface: #ffffff;
+$color-text: #1d2330;
+$color-muted: #5b6475;
+$color-border: #d9dde5;
+$color-primary: #3b5bdb;
+$color-primary-dark: #2f49b0;
+$color-secondary: #e7ebf8;
+$color-secondary-dark: #d3daf2;
+$color-danger: #d6336c;
+$color-danger-dark: #b02a59;
+
+// Spacing
+$space-xs: 0.25rem;
+$space-sm: 0.5rem;
+$space-md: 1rem;
+$space-lg: 1.5rem;
+$space-xl: 2.5rem;
+
+// Misc
+$radius: 0.5rem;
+$shadow: 0 1px 2px rgba(29, 35, 48, 0.06), 0 4px 12px rgba(29, 35, 48, 0.06);
+$container: 60rem;
+$transition: 150ms ease-out;

@@ -1,0 +1,24 @@
+@use '@abstracts/abstracts' as *;
+
+.container {
+  width: 100%;
+  max-width: $container;
+  margin-inline: auto;
+  padding-inline: $space-md;
+
+  @include breakpoint(tablet) {
+    padding-inline: $space-lg;
+  }
+}
+
+.main {
+  flex: 1;
+  padding-block: $space-xl;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $space-md;
+}

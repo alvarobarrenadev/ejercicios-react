@@ -1,0 +1,19 @@
+@use '@abstracts/variables' as v;
+
+html {
+  font-family: v.$primary-font;
+  color: v.$color-text;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1.6;
+  background-color: v.$color-bg;
+  transition: background-color 300ms ease-out;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

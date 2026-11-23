@@ -1,0 +1,44 @@
+@use '@abstracts/abstracts' as *;
+
+.input {
+  @extend %input-base;
+  width: 100%;
+
+  &:focus-visible {
+    @include focus-ring;
+    border-color: $color-primary;
+  }
+}
+
+.textarea {
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+  width: 100%;
+
+  @include breakpoint(tablet) {
+    flex-direction: row;
+
+    .btn {
+      flex-shrink: 0;
+    }
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  cursor: pointer;
+
+  input {
+    width: 1.1rem;
+    height: 1.1rem;
+    accent-color: $color-primary;
+  }
+}

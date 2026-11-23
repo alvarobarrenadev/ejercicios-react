@@ -1,0 +1,18 @@
+@use 'variables' as v;
+
+%card {
+  background-color: v.$color-surface;
+  border: 1px solid v.$color-border;
+  border-radius: v.$radius;
+  box-shadow: v.$shadow;
+}
+
+%input-base {
+  font: inherit;
+  color: v.$color-text;
+  background-color: v.$color-surface;
+  border: 1px solid v.$color-border;
+  border-radius: v.$radius;
+  padding: v.$space-sm v.$space-md;
+  transition: border-color v.$transition;
+}

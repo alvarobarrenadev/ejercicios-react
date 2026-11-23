@@ -1,0 +1,59 @@
+@use '@abstracts/abstracts' as *;
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $space-sm $space-lg;
+  border: 1px solid transparent;
+  border-radius: $radius;
+  background-color: $color-primary;
+  color: #fff;
+  font-weight: 600;
+  transition: background-color $transition, transform $transition;
+
+  &:hover:not(:disabled) {
+    background-color: $color-primary-dark;
+  }
+
+  &:active:not(:disabled) {
+    transform: scale(0.97);
+  }
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &--secondary {
+    background-color: $color-secondary;
+    color: $color-primary-dark;
+
+    &:hover:not(:disabled) {
+      background-color: $color-secondary-dark;
+    }
+  }
+
+  &--danger {
+    background-color: $color-danger;
+
+    &:hover:not(:disabled) {
+      background-color: $color-danger-dark;
+    }
+  }
+
+  &--sm {
+    padding: $space-xs $space-md;
+    font-size: 0.875rem;
+  }
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-sm;
+}

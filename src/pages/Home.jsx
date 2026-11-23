@@ -5,7 +5,7 @@ function Home() {
     <section className="home">
       <h1>Entrega de ejercicios 1</h1>
       <p className="home__lead">
-        Los ejercicios del módulo de JavaScript, rehechos en React con el código mínimo.
+        Nueve ejercicios prácticos de React: estado, eventos, efectos y persistencia con localStorage.
       </p>
       <ol className="home__grid">
         {ejercicios.map(({ id, titulo }, i) => (

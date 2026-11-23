@@ -1,6 +1,6 @@
 # Ejercicios React — Entrega 1
 
-Los ejercicios del módulo de JavaScript rehechos en React con el código mínimo. Estilos con Sass (arquitectura 7-1 en `src/sass/`).
+Nueve ejercicios prácticos de React: estado, eventos, efectos y persistencia con localStorage. Estilos con Sass (arquitectura 7-1 en `src/sass/`).
 
 **Demo:** https://alvarobarrenadev.github.io/ejercicios-react/
 
